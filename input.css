@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'MicrosoftSansSerif';
+    src: url('path/to/microsoft-sans-serif.woff2') format('woff2'),
+    url('path/to/microsoft-sans-serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+    color:#0C6170;
+}
+ul{
+    font-family: 'MicrosoftSansSerif', sans-serif;
+    font-weight: 500;
+}
+.hh{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+}
+section .hy{
+    font-family: 'Ysabeau SC';
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #37BEB0;
+}
+section .pp{
+    height: 115px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    text-underline-position: from-font;
+
+
+}
+.btn{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #EFF9F7;
+    background: #37BEB0;
+
+
+}
+.trend{
+    height: 80px;
+    font-family: 'Ysabeau SC';
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-bottom: 0.5px solid #0C6170;
+}
+.have{
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.pn{
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.bbtn{
+
+    height: 80px;
+    padding: 15px 83.67px 15px 84px;
+    border-radius: 10px;
+    border: 1px solid #0C6170;
+    list-style: Front 1/20;
+    font-family: 'Ysabeau SC';
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+
+}
+.t{
+    display: flex;
+    width: full;
+    justify-content: end;
+
+}
+.t2{
+    display: flex;
+    justify-content: center;
+}
+.summer{
+    height: 80px;
+    font-family: 'Ysabeau SC';
+    font-size: 50px;
+    font-weight: 500;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-bottom: 0.5px solid #0C6170;
+}
+.client{
+    width: 348px;
+    height: 79px;
+    list-style: Front 1/60m;
+    font-family: 'Ysabeau SC';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.con{
+    styleName: Roberto/blod 20;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.blur {
+    filter: blur(10px);
+    transition: filter 0.5s ease;
+}

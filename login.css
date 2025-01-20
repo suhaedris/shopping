@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'MicrosoftSansSerif';
+    src: url('path/to/microsoft-sans-serif.woff2') format('woff2'),
+    url('path/to/microsoft-sans-serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#EFF9F7;
+    color:#0C6170;
+}
+h1{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.hh{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}  
+.enter{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+} 
+form {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    
+} 
+form h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 23.44px;
+    font-size: 18px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    text-align: left;
+}
+input{
+    width: 367px;
+    height:40px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #EFF9F7;
+    border: 1px solid #0C6170;
+    margin-bottom: 3%;
+
+}
+.btn{
+    background: #0C6170;
+    color: #EFF9F7;
+    list-style: Microsoft sans/r18;
+    font-family: Microsoft Sans Serif;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 5%;
+
+}
+.circle {
+    background-color:#37BEB0AB;
+    border-radius: 50%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    left: 654px;
+    z-index: -1;
+}
+.circle2{
+    background-color:#37BEB0AB;
+    border-radius: 50%;
+    position:absolute;
+    width: 230px;
+    height: 200px;
+    left: -104px;
+    top: 500px;
+    z-index: -1;
+}

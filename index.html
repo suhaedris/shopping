@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="input.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet"> -->
+</head>
+
+<body class="bg-[#EFF9F7] m-0 p-0">
+    <header>
+        <nav class="flex justify-between items-center w-[92%] mx-auto mt-5">
+            <div>
+                <h1 class="text-3xl font-bold">
+                    Glamour
+                </h1>
+            </div>
+            <div class=" nav-links md:static absolute md:min-h-fit min-h-[50%] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+                <ul class=" flex md:flex-row flex-col md:items-center md:gap-7 gap-3">
+                    <li>
+                        <a class="hover:text-gray-400" href="# ">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-400"  href="# ">Our Products</a>
+                    </li> 
+                    <li>
+                        <a class="hover:text-gray-400"  href="# ">Latest Trends</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-400"  href="# ">About Us</a >
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-5">
+                <button onclick="window.location.href='login.html';" >Login</button>
+                <button class="bg-[#0C6170] text-white px-4 py-2 rounded-xl"> <a  href="signin.html">Sign up</a ></button>
+                    <ion-icon onclick="onToggleMenu(this)" class='text-3xl cursor-pointer md:hidden' name="menu"></ion-icon>
+                    <!-- <i onclick="onToggleMenu(this)" class='bx bx-menu text-3xl cursor-pointer md:hidden' ></i> -->
+                </div>
+        </nav>
+    </header>
+    <!-- <div class="container ml-2 absolute w-full flex"> -->
+        <section >
+            <div class="flex">
+        <div class="flex">
+            <img class=" mt-4 w-full h-[95%]" src="img/img1.png" alt="" loading="lazy">
+        <div class="absolute h-[15%] md:h-[27%] lg:h-[74%] w-[30%] bg-[#EFF9F7] lg:top-[230px] md:top-[19%] top-[17%] left-[68%] ">
+            <h6 class="hh mt-[15%] ml-[5%]">New Arrival</h6>
+            <h2 class="hy mt-8 ml-[5%] md:block hidden lg:w-[300px] w-[200px] lg:text-4xl text-xl " >Discover Our New Collection</h2>
+            <p class="pp ml-[5%] mt-8 lg:block hidden w-[90%]">We provide the largest clothing collection for any season.
+            You can choose trendy or classy design according to your
+            preferences. Our services are super fast and we update within 24 hours.</p>
+            <button class="mt-[12%] ml-[5%] md:w-[40%] w-[60%] h-[44px] rounded-2xl text-center btn">Explore Now</button>
+            </div>
+        </div>
+        <div class="block">
+        <div class="icons">
+            <ul class="flex absolute md:text-3xl md:gap-4 gap-2 left-[75%] mt-9">
+                <li><ion-icon name="person-outline"></ion-icon></li>
+                <li><ion-icon name="search-outline"></ion-icon></li>
+                <li><ion-icon name="heart-outline"></ion-icon></li>
+                <li><ion-icon name="cart-outline"></ion-icon></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </section>
+    <!-- trend -->
+    <section class="mt-[10%] ml-8">
+        <div>
+            <p class="md:w-[500px] w-[300px] md:text-5xl trend text-2xl"> &nbsp; Trending <span class="md:text-4xl text-lg">Collection</span></p>
+            <p class="have ml-3 mt-6">Have a look on what’s trending now!</p>
+        </div>
+        
+            <!-- grid -->
+            <div class=" grid grid-cols-1 md:grid-cols-10 relative flex justify-center text-center   gap-9 m-9">
+                
+                <!-- card-1- -->
+                <div class=" justify-center relative rounded-xl shadow-lg border border-[#37BEB0]   md:col-span-3">
+                    <div class="p-8 flex text-center justify-center">
+                        <div class="rounded-xl overflow-hidden">
+                            <img loading="lazy" src="img/heather-ford-5gkYsrH_ebY-unsplash.png" alt="">
+                            <p class="pn text-xl mt-9">Brown and blue outfit</p>
+                            <div class="flex   justify-between"> 
+                                <p>Price: 150.6$</p>
+                                <div>
+                                <ul class="flex cursor-pointer md:text-2xl  md:gap-4 gap-2 ">
+                                    <li><ion-icon name="heart-outline"></ion-icon></li>
+                                    <li><ion-icon name="cart-outline"></ion-icon></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badges hidden lg:block w-[100px] h-[20px] absolute top-[55%] left-[65%] text-lg  p-2 rounded-full m-2 ">
+                        <span class="icon"><ion-icon name="star-outline"></ion-icon></span>
+                        <span class="">4.2</span>
+                    </div>
+                </div>
+
+                <!-- card-2- -->
+                <div class="md:col-span-4 justify-center  relative rounded-xl shadow-lg border border-[#37BEB0]">
+                    <div class="p-8  flex text-center justify-center ">
+                        <div class="rounded-xl overflow-hidden">
+                            <img loading="lazy" src="img/valerie-elash-RfoISVdKM4U-unsplash.png" alt="">
+                            <p class="pn text-2xl mt-9">jeans jacket</p>
+                            <div class="flex   justify-between"> 
+                                <p>Price: 47$</p>
+                                <div>
+                                <ul class="flex md:text-2xl  md:gap-4 gap-2 ">
+                                    <li><ion-icon name="heart-outline"></ion-icon></li>
+                                    <li><ion-icon name="cart-outline"></ion-icon></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badges hidden lg:block  h-[20px] absolute top-[60%] left-[75%] text-lg  p-2 rounded-full m-2 ">
+                        <span class="icon"><ion-icon name="star-outline"></ion-icon></span>
+                        <span class="">4.2</span>
+                    </div>
+                </div>
+
+                <!-- card-3- -->
+                <div class="justify-center relative rounded-xl shadow-lg border border-[#37BEB0] top-[-6%]  md:col-span-3">
+                    <div class="p-8 flex text-center justify-center">
+                        <div class="rounded-xl overflow-hidden">
+                            <img loading="lazy" src="img/dmitry-spravko-2cmLR_I_hn0-unsplash.png" alt="">
+                            <p class="pn mt-9">Brown leather jacket</p>
+                            <div class="flex   justify-between"> 
+                                <p>Price: 117$</p>
+                                <div>
+                                <ul class="flex md:text-2xl  md:gap-4 gap-2 ">
+                                    <li><ion-icon name="heart-outline"></ion-icon></li>
+                                    <li><ion-icon name="cart-outline"></ion-icon></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badges hidden lg:block w-[100px] h-[20px] absolute top-[55%] left-[65%] text-lg  p-2 rounded-full m-2 ">
+                        <span class="icon"><ion-icon name="star-outline"></ion-icon></span>
+                        <span class="">4.2</span>
+                    </div>
+                </div>
+            </div>
+        <button class="bbtn lg:ml-[72%] lg:w-[330px] md:ml-[55%] w-auto sm:text-lg lg:text-3xl lg:top-[-39px]  ml-[10%] justify-center">View all  <ion-icon name="arrow-forward-outline"></ion-icon></button>
+    </section>
+    <!-- summer -->
+    <section class="mt-[10%] ml-8">
+        <div class="t mr-9">
+            <h2 class="md:w-[550px] w-[300px]  md:text-5xl summer text-2xl">  Summer <span class="md:text-4xl text-lg">Collection</span> </h2>
+            </div>
+        <div class="t">
+            <p class="have mt-6 mr-8 mb-5 ">WE consider your look and comfort on scorching weather.</p>
+        </div> 
+        <div class="grid m-4  gap-8 lg:grid-cols-12 md:grid-cols-2 grid-col-1">
+            <!-- 1 -->
+            <div class="relative lg:top-[60%] lg:h-[280px] sm:col-span-2 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-8 flex flex-col">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img loading="lazy" src="img/ivan-kazlouskij-hanS7PCesgk-unsplash.png" alt="">
+                        <p class="text-xl font-medium  lg:mt-4 mt-[10%]">Simple outfit</p>
+                        <div class="md:flex  mt-[10%] lg:mt-2  justify-between"> 
+                            <p>Price: 56$</p> 
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-2 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class=" lg:h-[450px] sm:col-span-3 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-8 flex flex-col">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img class=" w-[170px] lg:w-auto" src="img/sonnie-hiles-pU4J5VFnqCQ-unsplash 1.png" loading="lazy" alt="">
+                        <p class="text-xl font-medium   lg:mt-4 mt-[10%]">Black and white dress</p>
+                        <div class="md:flex mt-[10%] lg:mt-2  justify-between"> 
+                            <p>Price: 50.6$</p>
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-2 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="relative lg:top-[60%] lg:h-[280px] sm:col-span-2 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-7 flex flex-col ">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img loading="lazy" src="img/jonas-kakaroto-KIPqvvTOC1s-unsplash.png" alt="">
+                        <p class="text-xl font-medium   lg:mt-4 mt-[10%]">Gray  outfit</p>
+                        <div class="md:flex mt-[10%] lg:mt-2 justify-between"> 
+                            <p>Price:50.6$</p>
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-1 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="lg:h-[560px] sm:col-span-4 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-8 flex flex-col">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img loading="lazy" class="w-[170px] lg:w-auto" src="img/napat-saeng-mVGW8j9rrC4-unsplash.png" alt="">
+                        <p class="text-xl font-medium  lg:mt-4 mt-[10%]">Formal navy blue set</p>
+                        <div class="md:flex mt-[10%] lg:mt-2  justify-between "> 
+                            <p>Price: 80$</p>
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-2 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <button class="bbtn  w-auto lg:w-[330px] sm:text-lg lg:text-3xl lg:ml-[68%] lg:ml-[55%] lg:top-[-3px] top-[1px] ml-[10%] justify-center">View all  <ion-icon name="arrow-forward-outline"></ion-icon></button>
+        </section>
+        <!-- winter -->
+    <section class="mt-[10%] ml-8 ">
+        <div class="mb-8">
+            <p class="md:w-[500px] w-[300px] md:text-5xl trend text-2xl"> &nbsp; Winter <span class="md:text-4xl text-lg">Collection</span></p>
+            <p class="have ml-3 mt-6 ">WE consider your look and comfort on scorching weather.</p>
+        </div>
+        <div class="grid m-4  gap-8 lg:grid-cols-12 md:grid-cols-2 grid-col-1">
+            <!-- 1 -->
+            <div class="lg:h-[560px] sm:col-span-4 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-8 flex flex-col">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img loading="lazy w-[170px] lg:w-auto" src="img/marvin-meyer-xBJDTuXxYUk-unsplash.png" alt="">
+                        <p class="text-xl font-medium  lg:mt-4 mt-[10%]">Gray outfit for man</p>
+                        <div class="md:flex mt-[10%] lg:mt-2  justify-between "> 
+                            <p>Price: 80$</p>
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-2 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="relative lg:top-[60%] lg:h-[300px] sm:col-span-2 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-7 flex flex-col ">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img loading="lazy" src="img/aiony-haust-8OxVecNEuCQ-unsplash.png" alt="">
+                        <p class="text-xl font-medium   lg:mt-4 mt-[10%]">Gray dress</p>
+                        <div class="md:flex mt-[10%] lg:mt-1 justify-between"> 
+                            <p>Price:80$</p>
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-1 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class=" lg:h-[450px] sm:col-span-3 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-8 flex flex-col">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img class=" w-[170px] lg:w-auto" src="img/felipe-galvan-AhfrA5VQNpM-unsplash.png" loading="lazy" alt="">
+                        <p class="text-xl font-medium   lg:mt-4 mt-[10%]">white  shirty </p>
+                        <div class="md:flex mt-[10%] lg:mt-2  justify-between"> 
+                            <p>Price: 35$</p>
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-2 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="relative lg:top-[60%] lg:h-[300px] sm:col-span-2 rounded-xl shadow-lg border border-[#37BEB0] "> 
+                <div class="md:p-8 flex flex-col">
+                    <div class="rounded-xl overflow-hidden lg:block flex justify-between">
+                        <img loading="lazy" src="img/raychan-881aV6I3leM-unsplash.png" alt="">
+                        <p class="text-l font-medium  lg:mt-4 mt-[10%]">Brown Jacket</p>
+                        <div class="md:flex  mt-[10%] lg:mt-2  justify-between"> 
+                            <p>Price: 90$</p> 
+                            <div>
+                            <ul class="flex md:text-xl  md:gap-2 gap-1 ">
+                                <li><ion-icon name="heart-outline"></ion-icon></li>
+                                <li><ion-icon name="cart-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <button class="bbtn lg:w-[330px] lg:mt-[7%] w-auto sm:text-lg lg:text-3xl lg:ml-[68%] lg:ml-[55%]  ml-[10%] justify-center">View all  <ion-icon name="arrow-forward-outline"></ion-icon></button>
+</section>
+<!-- client -->
+<section class="mt-[10%] text-center">
+    <div class="container ml-[5%] p-6 w-[90%] border-t border-b  border-[#0C6170]">
+    <div class="t2  ">
+        <h2 class="md:w-[550px] w-[300px]  md:text-5xl client text-2xl"> Our Clients</h2>
+        </div>
+        <p class=" mb-5 text-xl font-medium">We have been working with more 500+ clients</p> 
+    <div class="t2 m-9 ">
+        <img loading="lazy" src="img/logos.png" class="" alt="">
+        </div>
+
+</div>
+</section>
+<footer class="mt-[2%]" >
+    <div class="grid md:grid-cols-12 grid-col-1  gap-9">
+        <div class="col-span-8 w-[250px]">
+    <h1 class="text-5xl w-[200px] font-bold ml-[50px] mb-7">
+        Glamour
+    </h1>
+    <h2 class="con text-xl w-[200px] font-bold ml-[50px] mt-5">
+        Contact us
+    </h2>
+    <p class="mt-5 ml-[50px] w-[200px]  text-xl">glamour2025@gmail.com <br>
+        +9639378451223</p>
+            <ul class="flex absolute md:text-xl md:gap-6 gap-2 mt-5 ml-[50px]">
+                <li><ion-icon name="logo-facebook"></ion-icon></li>
+                <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                <li><ion-icon name="logo-twitter"></ion-icon></li>
+                <li><ion-icon name="logo-youtube"></ion-icon></li>
+                <li><ion-icon name="logo-instagram"></ion-icon></li>
+            </ul>
+</div>
+<div class="col-span-4 m-9">
+    <ul class="flex gap-9">
+    <ul>
+        <li class="mb-2">
+        <b>Product</b> 
+        </li>
+        <li>
+           *****
+        </li>
+    </ul>
+    <ul>
+        <li class="mb-2"> <b> About</b></li>
+        <li>About us</li>
+    </ul>
+    <ul>
+        <li class="mb-2"> <b>Support</b> </li>
+        <li class="mb-2">Help Center</li>
+        <li class="mb-2">Terms of service</li>
+        <li class="mb-2">Legal</li>
+        <li class="mb-2">Privacy Policy</li>
+        <li>Status</li>
+    </ul>
+</ul>
+</div>
+</div>
+</footer>
+    <script>
+        function onToggleMenu(e){
+            const navLinks = document.querySelector('.nav-links')
+            e.name=e.name =='menu' ? 'close' : 'menu';
+            navLinks.classList.toggle('top-[-1%]')
+        }
+    </script>
+</body>
+
+</html>

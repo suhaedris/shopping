@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'MicrosoftSansSerif';
+    src: url('path/to/microsoft-sans-serif.woff2') format('woff2'),
+    url('path/to/microsoft-sans-serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+    color:#0C6170;
+}
+ul{
+    font-family: 'MicrosoftSansSerif', sans-serif;
+    font-weight: 500;
+}
+.hh{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+}
+section .hy{
+    font-family: 'Ysabeau SC';
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #37BEB0;
+}
+section .pp{
+    height: 115px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    text-underline-position: from-font;
+
+
+}
+.btn{
+    font-family: 'Work Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #EFF9F7;
+    background: #37BEB0;
+
+
+}

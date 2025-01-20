@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'MicrosoftSansSerif';
+    src: url('path/to/microsoft-sans-serif.woff2') format('woff2'),
+    url('path/to/microsoft-sans-serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#EFF9F7;
+    color:#0C6170;
+}
+h1{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.cancel{
+    width: 200px;
+    height:50px;
+    padding: 3%;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EFF9F7;
+    border: 1px solid #0C6170;
+    margin: 3%;
+    list-style: Microsoft sans/r18;
+    font-family: Microsoft Sans Serif;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-underline-position: from-font;
+}
+.next{
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    background: #0C6170;
+    color: #EFF9F7;
+    list-style: Microsoft sans/r18;
+    font-family: Microsoft Sans Serif;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-underline-position: from-font;
+    padding: 3%;
+    text-decoration-skip-ink: none;
+    margin:3%;
+}

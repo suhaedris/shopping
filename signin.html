@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+<h1 class="text-2xl text-center font-bold mt-2 text-black " >Glamour</h1>
+<div class="flex w-[100%] h-[600px] gap-9 "> 
+    <div class="mt-[7%] md:ml-[15%] ml-[2%] w-[400px] h-[600px] text-center">
+    <h1 class="hh text-3xl mb-[7%]">Get Started Now</h1> 
+    <form class="md:text-left text-center" action="verficat1.html">
+        <h2 class="">User Name</h2> 
+        <input type="text" placeholder="User Name">
+        <h2 class="">Number Phone</h2> 
+        <input type="text" placeholder="Number Phone">
+    <h2 class="">Email address</h2> 
+    <input type="email" placeholder="name@email.com">
+    <h2 class="">Password</h2> 
+    <input type="password" placeholder="*********************">
+    <input type="submit" class="btn mt-9" value="Sign in">
+    </form>
+    <div class="mb-9">
+        <h3 class="text-center font-bold mt-5">OR</h3>
+    <ul class="flex absolute md:text-sm md:gap-9 gap-2 mt-5 ml-[30px]">
+        <li><ion-icon name="logo-google"></ion-icon> Sign in with Google</li>
+        <li><ion-icon name="logo-facebook"></ion-icon> Sign in with Facebook</li>
+    </ul>   
+</div>
+<h3 class="mt-[15%]">Have an account? <a href="login.html" class="text-[#37BEB0]">Login</a></h3>
+    </div>
+    <div class="w-full h-[600px]" >
+        <img loading="lazy" class="hidden md:block w-[90%] mt-9 ml-[10%]  h-auto" src="img/image.png" alt="">
+    </div>
+</div>
+<div class="circle  md:block hidden" id="circle"></div>
+<div class="circle2  md:block hidden" id="circle2"></div>
+<script>
+    let circle = document.getElementById('circle');
+    let posX = 654;
+    let posY = 65;
+    let speed = 1;
+
+function moveCircle() {
+    posX -= speed;
+    posY += 0.15;
+
+    // إذا وصلت الدائرة إلى حافة الشاشة، اعد تعيين موقعها
+    if (posX <-20 ) {
+        posX = -24;
+        posY = 160;
+    }
+
+    circle.style.left = posX + 'px';
+    circle.style.top = posY + 'px';
+
+    requestAnimationFrame(moveCircle);
+}
+
+moveCircle();
+
+let circle2 = document.getElementById('circle2');
+    let posX1 = -104;
+    let posY1 = 500;
+    let speed1 = 1;
+
+function moveCircle1() {
+    posX1 += speed1;
+    posY1 -= 0.15;
+
+    // إذا وصلت الدائرة إلى حافة الشاشة، اعد تعيين موقعها
+    if (posX1 > 600  ) {
+        posX1 = 600;
+        posY1 = 400;
+    }
+
+    circle2.style.left = posX1 + 'px';
+    circle2.style.top = posY1 + 'px';
+
+    requestAnimationFrame(moveCircle1);
+}
+
+moveCircle1();
+</script>
+</body>
+</html>
